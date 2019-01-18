@@ -1,0 +1,58 @@
+@import "components/nav.css";
+@import "components/slide.css";
+@import "components/middle.css";
+@import "components/list.css";
+@import "components/tag.css";
+
+@import url(https://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+
+@font-face {
+    font-family: 'Noto Sans KR Light';
+    font-style: normal;
+    font-weight: 200;
+    src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff2) format('woff2'),
+    url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.woff) format('woff'),
+    url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Light.otf) format('opentype');
+}
+
+
+@font-face {
+    font-family: 'Noto Sans KR';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff2) format('woff2'),
+    url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.woff) format('woff'),
+    url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Regular.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'Noto Sans KR Bold';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff2) format('woff2'),
+    url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.woff) format('woff'),
+    url(https://fonts.gstatic.com/ea/notosanskr/v2/NotoSansKR-Bold.otf) format('opentype');
+}
+
+* {
+    color: #f1f1f1;
+}
+
+a {
+    text-decoration: none;
+    letter-spacing: -1px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR';
+    background-color: #292D3E;
+}
+
+.logo {
+    font-family: 'Noto Sans KR Bold';
+    font-size: 20pt;
+    letter-spacing: -1.25px;
+}

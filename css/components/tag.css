@@ -1,0 +1,21 @@
+tag {
+    width: fit-content;
+    height: fit-content;
+    padding: 5px;
+    height:34px;
+    line-height: 34px;
+    font-family: 'Noto Sans KR Bold';
+}
+
+.funny {
+    background-color: #fd3298;
+}
+
+.battleground {
+    background-color: #f7d723;
+    color: #000;
+}
+
+.voice {
+    background-color: #2729da;
+}

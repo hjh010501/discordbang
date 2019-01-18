@@ -1,0 +1,116 @@
+.list {
+    margin-top: 25px;
+    width: calc(50% - 10px);
+    display: inline-block;
+    height: 180px;
+    background-color: #292D3E;
+    font-size: 16px;
+    font-family: 'Noto Sans KR';
+    -webkit-box-shadow: 0px 18px 35px 3px rgba(0,0,0,0.11);
+    -moz-box-shadow: 0px 18px 35px 3px rgba(0,0,0,0.11);
+    box-shadow: 0px 18px 35px 3px rgba(0,0,0,0.11);
+    transition: .2s;
+}
+
+.makechat {
+    float:right;
+    width: 80px;
+    height: 35px;
+    border: 2px solid white;
+    font-family: 'Noto Sans KR';
+    font-size: 16px;
+    text-align: center;
+    line-height: 35px;
+    transition: .2s;
+    margin-top: 15px;
+}
+
+.makechat:hover {
+    background-color: white;
+    color: #292D3E;
+}
+
+.list_status {
+    float:left;
+    width: 100px;
+    height: 180px;
+    background-color:#1e2027;
+}
+
+.list_content {
+    float:right;
+    width: calc(100% - 100px);
+    height: 135px;
+    font-family: 'Noto Sans KR';
+}
+
+.list_title {
+    font-family: 'Noto Sans KR Bold';
+    border-bottom: 1px solid #1e2027;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 18pt;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.list_introduce {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    margin-right: 10px;
+    margin-left: 10px;
+    ine-height: 26px;
+}
+
+.list_tags {
+    float:left;
+    width: calc(100% - 100px);
+    height:34px;
+    padding-top: 10px;
+}
+
+.list_link {
+    float:right;
+    width: 75px;
+    height: 45px;
+}
+
+.list:hover {
+    transform: scale(1.05);
+}
+
+.status_img {
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    background: url('../../assets/test2.png');
+    background-position: center;
+    background-size: 100% 100%;
+    border: 4px solid #484b58;
+    margin-top: 20px;
+}
+
+.status_online {
+    font-size: 10pt;
+    font-family: 'Noto Sans KR';
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.status_owner {
+    color: #6b6e7e;
+    font-size: 10pt;
+    font-family: 'Noto Sans KR';
+    text-align: center;
+    margin-top: 10px;
+}
+
+.status_date {
+    color: #6b6e7e;
+    font-size: 10pt;
+    font-family: 'Noto Sans KR';
+    text-align: center;
+}
